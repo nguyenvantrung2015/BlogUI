@@ -1,0 +1,529 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../font/montserrat-v14-latin-regular.woff")
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 37px 168px 7px 168px;
+}
+header div{
+    width: 50%;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: bold;
+    color: #7D7D7D;
+}
+
+header div:last-child{
+    float: right;
+    text-align: right;
+}
+
+header div:first-child{
+    float: left;
+}
+
+header a{
+    font-family: "Montserrat";
+    text-decoration: none;
+    color: inherit;
+    margin-left: 15px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 403px;
+    height: 109px;
+}
+
+nav {
+    margin: 23px 113px 53px 113px;
+    background-color: #363636;
+    color: #fff;
+    font-family: "Montserrat";
+    height: 62px;
+    box-shadow: 1px 1px 2px #000000;
+}
+
+nav ul {
+    padding-inline-start: 0;
+    padding-top: 20px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 41px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: rgb(150, 150, 150);
+}
+
+.content {
+    margin: 50px 154px 50px 154px;
+}
+
+.two-image {
+    height: 314px;
+    margin-bottom: 7px;
+}
+
+.item1 {
+    float: left;
+}
+
+.item2 {
+    float: right;
+}
+
+.box-image {
+    height: inherit;
+    width: 49.75%;
+    position: relative;
+}
+
+.box-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-image {
+    position: absolute;
+    bottom: 23px;
+    left: 27px;
+}
+
+.info-image p:first-child {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: rebeccapurple;
+}
+
+.info-image p:last-child{
+    color: #d8d8d8;
+    background-color: royalblue;
+    display: inline;
+}
+
+.four-image {
+    height: 167px;
+    display: inline-flex;
+}
+
+.four-image .width {
+    width: 24.75%;
+    height: inherit;
+    position: relative;
+}
+
+.four-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.four-image .width:nth-child(2){
+    margin-left: 0.5%;
+}
+
+.four-image .width:nth-child(3){
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+.four-image p {
+    position: absolute;
+    bottom: 18px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.left, .right div {
+    border: 1px solid rgb(189, 189, 189);
+}
+
+.left {
+    min-height: inherit;
+    width: 734px;
+    padding: 23px;
+    box-sizing: border-box;
+}
+
+.two .right, .final .right {
+    margin-left: 43px;
+}
+
+.right .top, .right .bottom {
+    padding: 23px;
+    box-sizing: border-box;
+}
+
+.right .top {
+    height: 224px;
+}
+
+.right .bottom{
+    margin-top: 47px;
+    height: 489px;
+}
+
+.right {
+    width: 348px;
+}
+.two {
+    height: 764px;
+    display: inline-flex;
+}
+
+.content .two-image img:hover, .content .four-image img:hover {
+    opacity: 0.85;
+    cursor: pointer;
+}
+.two h3 {
+    font-weight: 200;
+    border-bottom: 2px solid rgb(126, 125, 125);
+    display: inline-flex;
+    padding-bottom: 5px;
+}
+
+
+.left .item {
+    width: 333px;
+    height: 245px;
+    margin-top: 37px;
+    position: relative;
+}
+
+.left img {
+    height: 195px;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.left img:hover{
+    opacity: 0.85;
+}
+
+.left .item img + p {
+    position: absolute;
+    bottom: 50px;
+    color: #ffffff;
+    background-color: #6899e3;
+    text-transform: uppercase;
+
+}
+
+.info p{
+    margin-top: 8px;
+}
+
+.info p:first-child {
+    font-size: 14px;
+}
+
+.info p:last-child {
+    color: #c6c6c6;
+}
+
+.left .list-item {
+    display: inline-flex;
+}
+
+.left .list-item .item:last-child {
+    margin-left: 23px;
+}
+
+.right .top img {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: indigo;
+    object-fit: contain;
+}
+
+
+
+.right .top ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.right .top ul li {
+    margin-left: 30px;
+    text-align: center;
+}
+
+.right .top ul li span {
+    display: block;
+}
+
+.right .top .list-social {
+    border: none;
+    margin-top: 54px;
+}
+
+.right .top ul li:first-child img {
+    background-image: linear-gradient(98deg, #4A97DC 100%, #245EB7 100%);
+}
+
+.right .top ul li:nth-child(2) img {
+    background-image: linear-gradient(98deg, #DC4A4A 100%, #8A24B7 100%);
+}
+
+.right .top ul li:last-child img {
+    background-image: linear-gradient(98deg, #55DEF3 100%, #9BEEFF 100%);
+}
+
+.right .top .list-social span {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #b9b9b9;
+}
+
+.two .left button {
+    background-color: #5BBD5B;
+    margin-top: 37px;
+    height: 66px;
+    width: 690px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.two .left button:focus{
+    outline-style:none;
+    box-shadow:none;
+    border-color:transparent;
+}
+
+.two .left button:hover{
+    cursor: pointer;
+}
+
+.two .left button:focus {
+    color: indigo;
+}
+
+.bottom .list-user{
+    border: none;
+    margin-left: 16px;
+    margin-top: 37px;
+}
+
+.list-user li {
+    height: 71px;
+    list-style-type: none;
+    display: inline-flex;
+    margin-bottom: 16px;
+}
+
+.list-user img {
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.list-user p {
+    padding: 16px 0px 16px 12px;
+    font-family: "Montserrat";
+}
+
+.list-user p span:first-child {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.list-user p span:last-child{
+    font-size: 12px;
+    font-weight: 200;
+    color: #7D7D7D;
+}
+
+.list-user {
+    overflow: auto;
+    height: 340px;
+}
+
+.bottom {
+    padding-left: 62px;
+}
+
+.video {
+    background-color: #F4F4F4;
+    height: 300px;
+    padding: 19px 28px 43px 19px;
+}
+
+
+.video .item {
+    width: 263px;
+    height: inherit;
+}
+
+.list-video {
+    margin-top: 19px;
+    height: 100%;
+    display: inline-flex;
+}
+
+.list-video video {
+    width: inherit;
+    height: 281px;
+}
+
+.list-video .item video:focus{
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.list-video .item video:hover{
+   opacity: 0.85;
+}
+
+.video h3 {
+    font-weight: 200;
+    border-bottom: 2px solid #333;
+    display: inline;
+    padding-bottom: 5px;
+}
+
+.final {
+    display: inline-flex;
+}
+
+.final .final-left{
+    height: 432px;
+    width: 734px;
+    border: 1px solid #b9b9b9;
+    padding: 23px;
+    box-sizing: border-box;
+    margin-right: 48px;
+}
+
+.final .final-right {
+    border: 1px solid #b9b9b9;
+    width: 348px;
+    padding: 23px;
+    box-sizing: border-box;
+}
+
+.final h3 {
+    text-transform: uppercase;
+    font-weight: 200;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    display: inline;
+}
+
+.list-head {
+    margin-top: 18px;
+}
+
+.list-head .item{
+    height: 98px;
+    padding-bottom: 22px;
+    display: flex;
+    border-bottom: 1px solid rgb(138, 136, 136);
+    box-sizing: border-box;
+}
+
+
+.list-head .item:last-child{
+    border-bottom: none;
+}
+
+.list-head .item p{
+    padding-left: 16px;
+}
+
+.list-head .item span{
+    display: block;
+}
+
+.list-head .item span:first-child{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+.list-head .item span:nth-child(2){
+    font-size: 18px;
+    color: #696969;
+    margin-top: 4px;
+}
+
+.list-head .item span:last-child{
+    font-size: 12px;
+    margin-top: 14px;
+    color: #696969;
+}
+
+.list-head img {
+    width: 104px;
+    height: 76px;
+    object-fit: cover;
+}
+
+.final-right p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #696969;
+    margin-top: 38px;
+}
+
+.final-right input {
+    color: #9B9B9B;
+    height: 48px;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.final-right button{
+    background-color: #5BBD5B;
+    color: #ffffff;
+    width: 115px;
+    height: 48px;
+    display: block;
+    margin-top: 23px;
+    float: right;
+
+}
+
+.final-right button:focus {
+    outline-style: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+img:hover {
+    cursor: pointer;
+    opacity: 0.85;
+}
